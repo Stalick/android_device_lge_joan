@@ -130,7 +130,7 @@ ro.vendor.qti.core_ctl_max_cpu=4
 # Display
 renderthread.skia.reduceopstasksplitting=true
 vendor.opengles.version=196610
-ro.sf.lcd_density=580
+ro.sf.lcd_density=480
 ro.vendor.display.cabl=2
 sdm.debug.disable_partial_split=1
 sdm.perf_hint_window=50
