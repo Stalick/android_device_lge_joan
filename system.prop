@@ -25,6 +25,7 @@ ro.charger.enable_suspend=true
 
 # Display
 debug.sf.hw=1
+debug.sf.latch_unsignaled=0
 
 # Perf
 ro.vendor.qti.sys.fw.bg_apps_limit=48
