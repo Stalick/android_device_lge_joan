@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
     gralloc.msm8998 \
     hwcomposer.msm8998 \
     libdisplayconfig \
-    liboverlay \
     libqdMetaData.system \
     libtinyxml \
     libqservice \
