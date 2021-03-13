@@ -15,6 +15,11 @@ persist.bluetooth.a2dp_offload.disabled=true
 ro.bluetooth.a2dp_offload.supported=false
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.surface_flinger.supports_background_blur=1
+debug.sf.disable_backpressure=1
+ro.sf.blurs_are_expensive=1
+
 # Charger
 ro.charger.enable_suspend=true
 
