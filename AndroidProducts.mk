@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_joan.mk
+    $(LOCAL_DIR)/lineage_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_joan-userdebug \
-    aosp_joan-eng
+    lineage_joan-userdebug \
+    lineage_joan-eng
