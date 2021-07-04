@@ -51,7 +51,6 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8998 \
     audio.r_submix.default \
     audio.usb.default \
-    libaacwrapper \
     libaudio-resampler \
     libaudioroute \
     libhfp \
@@ -517,12 +516,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
-
-# WiFi Display
-#PRODUCT_PACKAGES += \
-#    libaacwrapper \
-#    libmediaextractorservice \
-#    libnl
-
-#PRODUCT_BOOT_JARS += \
-#    WfdCommon
