@@ -26,6 +26,11 @@ on post-fs
     chmod 0771 /mnt/vendor/persist-lg
     restorecon_recursive /mnt/vendor/persist-lg
 
+    symlink /vendor/etc/wifi/bdwlan.bin /mnt/vendor/mnt/vendor/persist-lg/wifi/qcom/bdwlan_cache.bin
+    symlink /vendor/etc/wifi/bdwlan_ch0.bin /mnt/vendor/persist-lg/wifi/qcom/bdwlan_ch0_cache.bin
+    symlink /vendor/etc/wifi/bdwlan_ch1.bin /mnt/vendor/persist-lg/wifi/qcom/bdwlan_ch1_cache.bin
+    symlink /vendor/etc/wifi/WCNSS_qcom_cfg.ini /mnt/vendor/persist-lg/wifi/qcom/WCNSS_qcom_cache_cfg.ini
+
     chown system system /mnt/vendor/sns
     chmod 0755 /mnt/vendor/sns
     restorecon_recursive /mnt/vendor/sns
