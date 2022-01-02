@@ -113,7 +113,8 @@ PRODUCT_PACKAGES += \
     camera.device@3.4-impl \
     camera.device@3.4-external-impl \
     vendor.qti.hardware.camera.device@1.0 \
-    libxml2
+    libxml2 \
+    Snap
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
@@ -195,9 +196,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0 \
     android.hardware.gatekeeper@1.0.vendor
-
-# Google Camera
-$(call inherit-product-if-exists, vendor/apps/GoogleCamera/config.mk)
 
 # GPS
 PRODUCT_PACKAGES += \
