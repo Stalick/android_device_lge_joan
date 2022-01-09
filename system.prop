@@ -20,8 +20,7 @@ ro.charger.enable_suspend=true
 
 # Display
 debug.sf.hw=1
-persist.debug.wfd.enable=0
-persist.sys.wfd.virtual=0
+debug.egl.hw=1
 
 # Perf
 ro.vendor.qti.sys.fw.bg_apps_limit=48
