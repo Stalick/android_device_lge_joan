@@ -52,4 +52,4 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Voice assistant
-ro.opa.eligible_device=true
+#ro.opa.eligible_device=true

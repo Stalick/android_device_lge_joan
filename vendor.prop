@@ -245,7 +245,7 @@ persist.delta_time.enable=true
 persist.timed.enable=true
 
 # Voice assistant
-ro.opa.eligible_device=true
+#ro.opa.eligible_device=true
 
 # Volume Steps
 ro.config.vc_call_vol_steps=7
