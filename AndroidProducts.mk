@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_joan.mk
+    $(LOCAL_DIR)/corvus_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_joan-userdebug \
-    lineage_joan-eng
+    corvus_joan-userdebug \
+    corvus_joan-eng
