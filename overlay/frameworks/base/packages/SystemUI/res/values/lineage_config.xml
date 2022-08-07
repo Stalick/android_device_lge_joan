@@ -21,6 +21,12 @@
      for different hardware and product builds. -->
 <resources>
 
+    <!-- Should we listen for fingerprints when the screen is off?  Devices
+         with a rear-mounted sensor want this, but certain devices have
+         the sensor embedded in the power key and listening all the time
+         causes a poor experience. -->
+    <bool name="config_fingerprintWakeAndUnlock">false</bool>
+
        <!-- Hardware ui (power menu) alignement:
          Use one of the following values basing on the power button position:
          * Top | Back -> 49 (Gravity.TOP | Gravity.CENTER_HORIZONTAL)
