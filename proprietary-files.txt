@@ -503,6 +503,11 @@ vendor/lib/libsymphony-1.1.4.so
 vendor/lib/libsymphonypower-1.1.2.so
 vendor/lib/libsymphonypower-1.1.4.so
 
+# DRM - Widevine
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+vendor/lib64/libwvhidl.so
+
 # Fingerprint
 vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc
