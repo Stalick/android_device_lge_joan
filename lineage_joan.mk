@@ -36,3 +36,27 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT="lge/joan_global_com/joan:8.0.0/OPR1.170623.026/181381736b4e9:user/release-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model ro.product.system.model
+
+# chipset flag (one word only/no spacing) 
+RICE_CHIPSET := MSM8998 
+ 
+# gapps build flag, if not defined build type is vanilla 
+WITH_GMS := false
+ 
+# Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation) 
+SUSHI_BOOTANIMATION := 1440 
+ 
+# Graphene Camera 
+TARGET_BUILD_GRAPHENEOS_CAMERA := false 
+ 
+# disable/enable blur support, default is false 
+TARGET_ENABLE_BLUR := true 
+ 
+# UDFPS ICONS/ANIMATIONS 
+TARGET_HAS_UDFPS := false 
+ 
+# Quick tap feature 
+TARGET_SUPPORTS_QUICK_TAP := true 
+ 
+# Face Unlock 
+TARGET_FACE_UNLOCK_SUPPORTED := true
