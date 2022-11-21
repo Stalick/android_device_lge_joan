@@ -21,6 +21,7 @@ TARGET_OTA_ASSERT_DEVICE := v30,joan,h930,h932
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_h930_defconfig
 TARGET_KERNEL_VERSION := 4.4
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 # inherit from the proprietary version
 -include vendor/lge/joan/BoardConfigVendor.mk
